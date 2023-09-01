@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-container{
+    height: 811px;
+    background-color: rgb(68,28,179);
+}
+.navbar{
+    width: 1321px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Lobster';
+    font-size: 15px;
+    background-color: rgb(68,28,179);
+    height: 87px;
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 7px;
+    margin-right: 395px;
+}
+#logo-img{
+    width: 255px;
+    height: 109px;
+}
+.nav-other{
+    display: none;
+    margin: 20px;
+    margin-top: 18px;
+    background-color: rgb(68,28,179);
+}
+#nav-button{
+    margin-top: 40px;
+    margin-left: 480px;
+    color: white;
+    font-size: 36px;
+}
+#nav-button img{
+    height: 89px;
+    width: 143px;
+    margin-top: -21px;
+    margin-left: -15px;
+    border-radius: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    background-color: rgb(35, 13, 94);
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    padding-top: 30px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: -17px;
+    right: 25px;
+    font-size: 82px;
+    margin-left: 50px;
+}
+@keyframes fade-in {
+    from {
+       opacity: 0;
+       /* Start with 0 opacity */
+    }
+    to {
+       opacity: 1;
+       /* transition to full opacity */
+    }
+ }
+.boldL{
+    margin-left: 103px;
+    margin-top: 190px;
+    color: white;
+    font-size: 43px;
+    animation: fade-in 3s;
+}
+.p_in_bold{
+    font-size: 90px;
+    padding-top: 10px;
+}
+.notBold{
+    color: white;
+    margin-left: 103px;
+    margin-top: 32px;
+    font-size: 32px;
+}
+.p_in_not_bold{
+    width: 900px;
+    padding-top: 5px;
+}
+.container{
+    display: flex;
+    background-color: rgb(68,28,179);
+    width: 1341px;
+    height: 727px;
+    justify-content: center;
+    margin-top: -20px;
+}
+.container-1{
+    margin-top: -60px;
+    width: 973px;
+    margin-left: -5%;
+}
+.phone-1{
+    display: none;
+    margin-top: -1px;
+    background-color: rgb(68,28,179);
+}
+#phone-1{
+    margin-left: 279px;
+    margin-top: 95px;
+    width: 561px;
+    height: 642px;
+    background-color: rgb(68,28,179);
+}
+
+.heading{
+    margin-top: 84px;
+    margin-left: 420px;
+    margin-bottom: 65px;
+    text-align: center;
+    font-size: 60px;
+}
+.diff-features{
+    display: block;
+}
+.card-1{
+    display: none;
+    width: 335px;
+    margin-left: 131px;
+    margin-top: 50px;
+}
+.card-1-480{
+    display: flex;
+    width: 662px;
+    padding: 28px;
+    border-radius: 63px;
+    margin-left: 298px;
+    margin-top: 50px;
+    border: 3px solid gray;
+}
+.card-1-480:hover{
+    cursor: pointer;
+    height: 274px;
+    width: 1113px;
+    padding: 64px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    border-radius: 63px;
+    margin-left: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    border: none;
+    transition: 0.5s;
+}
+.BoldHeadings-1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 37px;
+    width: 730px;
+}
+.card-1-480:hover .BoldHeadings-1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 60px;
+    width: 765px;
+}
+.description-1{
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 9px;
+    font-size: 29px;
+    width: 439px;
+    color: gray;
+}
+.card-1-480:hover .description-1{
+    /* text-align: left; */
+    margin-left: 24px;
+    margin-top: 9px;
+    font-size: 40px;
+    width: 439px;
+    color: gray;
+}
+.card-logo{
+    height: 107px;
+    width: 107px;
+}
+.card-1-480:hover .card-logo{
+    margin-top: 21px;
+    height: 140px;
+    width: 140px;
+}
+#phone-2{
+    display: none;
+    margin-left: 137px;
+    margin-top: 49px;
+    width: 175px;
+    height: 351px;
+}
+.card-2{
+    display: flex;
+    width: 335px;
+    margin-left: 128px;
+    margin-top: 50px;
+}
+.BoldHeadings-2{
+    text-align: left;
+    margin-left: 22px;
+    margin-top: -4px;
+    font-size: 37px;
+    width: 730px;
+}
+.card-1-480:hover .BoldHeadings-2{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 60px;
+    width: 765px;
+}
+.description-2{
+    text-align: left;
+    margin-left: 17px;
+    margin-top: 9px;
+    font-size: 16px;
+    width: 293px;
+    color: gray;
+}
+.card-1-480:hover .description-2{
+    /* text-align: left; */
+    margin-left: 24px;
+    margin-top: 9px;
+    font-size: 40px;
+    width: 439px;
+    color: gray;
+}
+.cards{
+    display: block;
+    width: 300px;
+    margin-left: 168px;
+    margin-bottom: 144px;
+    justify-content: center;
+}
+
+.r-heading{
+    text-align: center;
+    margin-left: 365px;
+    font-size: 50px;
+    margin-top: 105px;
+    margin-bottom: 56px;
+}
+.review-1{
+    width: 960px;
+    border: 3px solid gray;
+    margin: 10px;
+    border-radius: 39px;
+    padding: 18px;
+    margin-top: 29px;
+}
+.profile-pic{
+    text-align: center;
+}
+#profile-pic{
+    height: 170px;
+    width: 170px;
+}
+.profile-name{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 40px;
+}
+.profile-company{
+    font-size: 28px;
+    margin-top: 8px;
+    text-align: center;
+    color: gray;
+}
+.profile-rating{
+    margin-top: 10px;
+    text-align: center;
+}
+.profile-review{
+    margin-top: 7px;
+    text-align: left;
+    color: gray;
+    font-size: 27px;
+}
+.star {
+    background-color: black;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+#active {
+  background-color: gold;
+}
+
+.contact{
+    margin-top: 30px;
+    width: 1341px;
+    height: 383px;
+    text-align: center;
+    color: white;
+    background-color: rgb(68,28,179);
+}
+.tagline{
+    padding-top: 127px;
+    font-size: 72px;
+}
+.tagline:hover{
+    padding-top: 127px;
+    font-size: 72px;
+    animation: fade-in 3s;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.link-1{
+    display: flex;
+    padding-right: 110px;
+}
+.link-1:hover{
+    font-weight: bolder;
+}
+.link-2{
+    display: flex;
+}
+.contact-logo{
+    padding-top: 45px;
+    height: 54px;
+    width: 54px;
+
+}
+.contact-id{
+    padding-top: 48px;
+    padding-left: 10px;
+    font-size: 45px;
+}

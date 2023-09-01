@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@keyframes fade-in {
+    from {
+       opacity: 0;
+       /* Start with 0 opacity */
+    }
+    to {
+       opacity: 1;
+       /* transition to full opacity */
+    }
+ }
+.main-container{
+    height: 811px;
+    background-color: rgb(68,28,179);
+}
+.navbar{
+    width: 1321px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Lobster';
+    font-size: 15px;
+    background-color: rgb(68,28,179);
+}
+#nav-button{
+    width: 0;
+    height: 0;
+}
+#nav-button img{
+    width: 0;
+    height: 0;
+}
+.sidenav{
+    height: 0;
+    width: 0;
+}
+.sidenav a{
+    color: rgb(68,28,179);
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 7px;
+    margin-right: 395px;
+}
+#logo-img{
+    width: 105px;
+    height: 40px;
+}
+.nav-other{
+    margin: 20px;
+    margin-top: 21px;
+    margin-left: 3px;
+    font-size: 19px;
+    background-color: rgb(68,28,179);
+}
+.nav-480{
+    display: none;
+}
+.boldL{
+    margin-left: 103px;
+    margin-top: 163px;
+    color: white;
+    font-size: 43px;
+}
+.p_in_bold{
+    padding-top: 10px;
+}
+.notBold{
+    color: white;
+    margin-left: 103px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+.p_in_not_bold{
+    width: 373px;
+    padding-top: 5px;
+}
+.container{
+    display: flex;
+    background-color: rgb(68,28,179);
+    width: 1341px;
+}
+.phone-1{
+    margin-top: -1px;
+    background-color: rgb(68,28,179);
+}
+#phone-1{
+    margin-left: 279px;
+    margin-top: 95px;
+    width: 561px;
+    height: 642px;
+    background-color: rgb(68,28,179);
+}
+
+.heading{
+    margin-top: 58px;
+    margin-left: 430px;
+    width: 504px;
+    margin-bottom: 47px;
+    text-align: center;
+    font-size: 57px;
+}
+.diff-features{
+    display: flex;
+}
+.card-1{
+    display: flex;
+    width: 335px;
+    margin-left: 131px;
+    margin-top: 50px;
+}
+.card-1-480{
+    display: none;
+    width: 335px;
+    margin-left: 131px;
+    margin-top: 50px;
+}
+.BoldHeadings-1{
+    text-align: right;
+    margin-right: 18px;
+    margin-top: -10px;
+}
+.description-1{
+    text-align: right;
+    margin-right: 17px;
+    margin-top: 9px;
+    font-size: 16px;
+    width: 293px;
+    color: gray;
+}
+.card-logo{
+    height: 43px;
+    width: 43px;
+}
+#phone-2{
+    margin-left: 137px;
+    margin-top: 49px;
+    width: 175px;
+    height: 351px;
+}
+.card-2{
+    display: flex;
+    width: 335px;
+    margin-left: 128px;
+    margin-top: 50px;
+}
+.BoldHeadings-2{
+    text-align: left;
+    margin-left: 18px;
+    margin-top: -10px;
+}
+.description-2{
+    text-align: left;
+    margin-left: 17px;
+    margin-top: 9px;
+    font-size: 16px;
+    width: 293px;
+    color: gray;
+}
+
+.cards{
+    display: flex;
+    margin-left: 202px;
+    width: 999px;
+    margin-right: -261px;
+    margin-bottom: 144px;
+    justify-content: center;
+}
+
+.r-heading{
+    text-align: center;
+    width: 608px;
+    margin-left: 398px;
+    font-size: 50px;
+    margin-top: 105px;
+    margin-bottom: 56px;
+}
+.review-1{
+    width: 322px;
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.profile-pic{
+    text-align: center;
+}
+.profile-name{
+    margin-top: 18px;
+    text-align: center;
+}
+.profile-company{
+    margin-top: 3px;
+    text-align: center;
+    color: gray;
+}
+.profile-rating{
+    margin-top: 10px;
+    text-align: center;
+}
+.profile-review{
+    margin-top: 7px;
+    text-align: left;
+    color: gray;
+}
+.star {
+    background-color: black;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+#active {
+  background-color: gold;
+}
+
+.contact{
+    margin-top: 30px;
+    width: 1341px;
+    height: 383px;
+    text-align: center;
+    color: white;
+    background-color: rgb(68,28,179);
+}
+.tagline{
+    padding-top: 127px;
+    font-size: 52px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.link-1{
+    display: flex;
+    padding-right: 110px;
+}
+.link-2{
+    display: flex;
+}
+.contact-logo{
+    padding-top: 45px;
+}
+.contact-id{
+    padding-top: 48px;
+    padding-left: 10px;
+    font-size: 18px;
+}
